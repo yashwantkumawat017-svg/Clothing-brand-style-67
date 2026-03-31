@@ -1,1 +1,843 @@
 # Clothing-brand-style-67
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clothing Brand Practice Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <p>Free shipping on orders over $100 | New collection coming soon</p>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="brand">
+        <!-- TODO: Replace with your logo later -->
+        <h1>YOUR BRAND</h1>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#new-arrivals">New Arrivals</a></li>
+          <li><a href="#best-sellers">Best Sellers</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn">Search</button>
+        <button class="icon-btn">Account</button>
+        <button class="icon-btn">Cart (0)</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">MODERN CLOTHING BRAND</p>
+        <h2>Build Your Style With Confidence</h2>
+        <p>
+          This is a practice clothing brand website layout. You can later add your logo,
+          banners, products, collections, offers, and brand story here.
+        </p>
+        <div class="hero-buttons">
+          <a href="#shop" class="btn primary-btn">Shop Now</a>
+          <a href="#about" class="btn secondary-btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <!-- TODO: Replace with banner image -->
+        <div class="placeholder-box large-placeholder">
+          Hero Banner / Fashion Image Placeholder
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section class="section" id="shop">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">CATEGORIES</p>
+        <h3>Shop By Category</h3>
+        <p>Use these cards for your product categories like men, women, hoodies, t-shirts, jackets, and accessories.</p>
+      </div>
+
+      <div class="category-grid">
+        <div class="category-card">
+          <div class="placeholder-box">Category Image</div>
+          <h4>Men</h4>
+          <p>Add men’s collection later</p>
+        </div>
+        <div class="category-card">
+          <div class="placeholder-box">Category Image</div>
+          <h4>Women</h4>
+          <p>Add women’s collection later</p>
+        </div>
+        <div class="category-card">
+          <div class="placeholder-box">Category Image</div>
+          <h4>Streetwear</h4>
+          <p>Add streetwear collection later</p>
+        </div>
+        <div class="category-card">
+          <div class="placeholder-box">Category Image</div>
+          <h4>Accessories</h4>
+          <p>Add accessories later</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arrivals -->
+  <section class="section alt-bg" id="new-arrivals">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">LATEST DROP</p>
+        <h3>New Arrivals</h3>
+        <p>These are placeholder product cards. You can replace them with your real products later.</p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Product Name</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">Fabric, fit, and product details will go here.</p>
+          <button class="btn primary-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Product Name</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">Fabric, fit, and product details will go here.</p>
+          <button class="btn primary-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Product Name</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">Fabric, fit, and product details will go here.</p>
+          <button class="btn primary-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Product Name</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">Fabric, fit, and product details will go here.</p>
+          <button class="btn primary-btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Sellers -->
+  <section class="section" id="best-sellers">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">POPULAR PICKS</p>
+        <h3>Best Sellers</h3>
+        <p>Add your top-performing products here later.</p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Best Seller Product</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">You can add best seller details here later.</p>
+          <button class="btn secondary-btn">View Product</button>
+        </div>
+
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Best Seller Product</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">You can add best seller details here later.</p>
+          <button class="btn secondary-btn">View Product</button>
+        </div>
+
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Best Seller Product</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">You can add best seller details here later.</p>
+          <button class="btn secondary-btn">View Product</button>
+        </div>
+
+        <div class="product-card">
+          <div class="placeholder-box product-image">Product Image</div>
+          <h4>Best Seller Product</h4>
+          <p class="price">$00.00</p>
+          <p class="product-desc">You can add best seller details here later.</p>
+          <button class="btn secondary-btn">View Product</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promotional Banner -->
+  <section class="promo-section">
+    <div class="container promo-content">
+      <div>
+        <p class="section-label">SPECIAL OFFER</p>
+        <h3>Seasonal Collection Coming Soon</h3>
+        <p>
+          Use this section for promotions, discounts, launch announcements,
+          free shipping offers, or limited edition drops.
+        </p>
+      </div>
+      <a href="#contact" class="btn primary-btn">Get Updates</a>
+    </div>
+  </section>
+
+  <!-- About Brand -->
+  <section class="section alt-bg" id="about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <div class="placeholder-box large-placeholder">Brand Story Image Placeholder</div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">ABOUT THE BRAND</p>
+        <h3>Your Story Starts Here</h3>
+        <p>
+          This section is for your clothing brand story. You can explain your mission,
+          inspiration, values, quality standards, and what makes your brand unique.
+        </p>
+        <p>
+          Example details you may add later:
+        </p>
+        <ul>
+          <li>Founder story</li>
+          <li>Brand mission and values</li>
+          <li>Focus on comfort, quality, luxury, or streetwear</li>
+          <li>Sustainability details</li>
+          <li>Craftsmanship and materials</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lookbook / Gallery -->
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">LOOKBOOK</p>
+        <h3>Campaign & Style Gallery</h3>
+        <p>Add lifestyle images, fashion shoots, and styled outfit inspiration here.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="placeholder-box gallery-item">Lookbook Image</div>
+        <div class="placeholder-box gallery-item">Lookbook Image</div>
+        <div class="placeholder-box gallery-item">Lookbook Image</div>
+        <div class="placeholder-box gallery-item">Lookbook Image</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section alt-bg">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">CUSTOMER REVIEWS</p>
+        <h3>What Customers Say</h3>
+        <p>You can replace these with real customer feedback later.</p>
+      </div>
+
+      <div class="review-grid">
+        <div class="review-card">
+          <p>★★★★★</p>
+          <p>"Amazing quality and great fit. Will definitely order again."</p>
+          <h4>- Customer Name</h4>
+        </div>
+        <div class="review-card">
+          <p>★★★★★</p>
+          <p>"The website feels premium and the clothing looks stylish."</p>
+          <h4>- Customer Name</h4>
+        </div>
+        <div class="review-card">
+          <p>★★★★★</p>
+          <p>"Fast shipping and very comfortable fabric."</p>
+          <h4>- Customer Name</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-section">
+    <div class="container newsletter-content">
+      <div>
+        <p class="section-label">JOIN THE COMMUNITY</p>
+        <h3>Subscribe for New Drops & Offers</h3>
+        <p>Add your email collection system here later.</p>
+      </div>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn primary-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">HELP CENTER</p>
+        <h3>Frequently Asked Questions</h3>
+        <p>These are important for professional e-commerce websites.</p>
+      </div>
+
+      <div class="faq-list">
+        <details>
+          <summary>What shipping details should I add here later?</summary>
+          <p>You can add shipping timelines, delivery regions, tracking information, and shipping fees.</p>
+        </details>
+        <details>
+          <summary>What return policy information should be included?</summary>
+          <p>You can add return periods, exchange options, refund rules, and product condition requirements.</p>
+        </details>
+        <details>
+          <summary>Where should I add sizing details?</summary>
+          <p>You can add a size guide on each product page and also link it in the FAQ section.</p>
+        </details>
+        <details>
+          <summary>Can I add international shipping later?</summary>
+          <p>Yes, you can update your shipping policy and checkout system later when your store is ready.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section alt-bg" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-label">CONTACT US</p>
+        <h3>Let’s Stay Connected</h3>
+        <p>
+          Add your business email, phone number, address, store location,
+          and social media links here later.
+        </p>
+
+        <div class="contact-details">
+          <p><strong>Email:</strong> yourbrand@example.com</p>
+          <p><strong>Phone:</strong> +00 000 000 0000</p>
+          <p><strong>Address:</strong> Add your business address later</p>
+          <p><strong>Working Hours:</strong> Mon - Sat, 10:00 AM - 7:00 PM</p>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject" required />
+        <textarea rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>YOUR BRAND</h4>
+        <p>Practice clothing brand website with professional structure and placeholder content.</p>
+      </div>
+
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Return Policy</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 YOUR BRAND. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #111;
+  background: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.announcement-bar {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.brand h1 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #777;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.icon-btn {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.icon-btn:hover {
+  background: #111;
+  color: #fff;
+}
+
+.hero {
+  padding: 80px 0;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.eyebrow,
+.section-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.primary-btn {
+  background: #111;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background: #333;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #111;
+  border: 1px solid #111;
+}
+
+.secondary-btn:hover {
+  background: #111;
+  color: #fff;
+}
+
+.placeholder-box {
+  background: #f1f1f1;
+  border: 1px dashed #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+.large-placeholder {
+  min-height: 400px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.alt-bg {
+  background: #fafafa;
+}
+
+.section-heading {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.section-heading h3 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.section-heading p {
+  color: #555;
+}
+
+.category-grid,
+.product-grid,
+.review-grid,
+.gallery-grid,
+.footer-grid {
+  display: grid;
+  gap: 25px;
+}
+
+.category-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.category-card,
+.product-card,
+.review-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover,
+.product-card:hover,
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.category-card h4,
+.product-card h4,
+.review-card h4 {
+  margin: 15px 0 10px;
+}
+
+.product-image {
+  min-height: 260px;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-desc {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.promo-section {
+  background: #111;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.promo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-grid,
+.contact-grid,
+.newsletter-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.about-text ul li {
+  list-style: disc;
+  margin-bottom: 8px;
+}
+
+.gallery-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-item {
+  min-height: 250px;
+}
+
+.review-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.newsletter-section {
+  padding: 60px 0;
+  background: #f4f4f4;
+}
+
+.newsletter-form,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.newsletter-form input,
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-list details {
+  border: 1px solid #ddd;
+  padding: 18px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #111;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.footer-grid {
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 40px;
+}
+
+.footer h4 {
+  margin-bottom: 15px;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #ccc;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding: 20px 0;
+  text-align: center;
+  color: #bbb;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .hero-content,
+  .about-grid,
+  .contact-grid,
+  .newsletter-content {
+    grid-template-columns: 1fr;
+  }
+
+  .category-grid,
+  .product-grid,
+  .gallery-grid,
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .promo-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-text h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links,
+  .nav-actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .category-grid,
+  .product-grid,
+  .gallery-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading h3 {
+    font-size: 28px;
+  }
+
+  .hero-text h2 {
+    font-size: 32px;
+  }
+}
+document.getElementById("newsletterForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Newsletter form submitted. Connect this to your email system later.");
+});
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Contact form submitted. Connect this to your backend or email service later.");
+});
